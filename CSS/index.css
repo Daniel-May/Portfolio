@@ -2,6 +2,7 @@
 
 /* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -20,4 +21,27 @@ header {
 header > h1, h2 {
 	border-bottom: 2px solid lime;
 
+}
+
+#role {
+	width: 50%;
+}
+
+#location {
+	width: 25%;
+}
+
+nav {
+	width: 100%;
+	display: flex;
+}
+
+.nav-link-wrap {
+	width: 25%;
+	text-align: center;
+	padding: 25px;
+	background-color: #282828;
+	color: white;
+	font-size: 22px;
+	font-family: 'Cairo', sans-serif;
 }
