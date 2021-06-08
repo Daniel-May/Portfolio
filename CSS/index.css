@@ -12,14 +12,14 @@
 
 header {
 	width: 100%;
-	background-color: #282828;
+	background-color: #35a79c;
 	color: white;
 	padding: 25px;
 	font-family: 'Aldrich', sans-serif;
 }
 
 header > h1, h2 {
-	border-bottom: 2px solid lime;
+	border-bottom: 2px solid white;
 
 }
 
@@ -34,14 +34,22 @@ header > h1, h2 {
 nav {
 	width: 100%;
 	display: flex;
+	font-weight: bold;
 }
 
 .nav-link-wrap {
 	width: 25%;
 	text-align: center;
 	padding: 25px;
-	background-color: #282828;
+	background-color: #35a79c;
 	color: white;
 	font-size: 22px;
-	font-family: 'Cairo', sans-serif;
+	/*font-family: 'Cairo', sans-serif;*/
+	font-family: 'Aldrich', sans-serif;
+}
+
+#main-body {
+	width: 100%;
+	padding: 25px;
+	background:linear-gradient(to bottom, #282828 0%, #484848 100%);
 }
