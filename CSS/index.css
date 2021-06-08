@@ -18,7 +18,7 @@ header {
 	font-family: 'Aldrich', sans-serif;
 }
 
-header > h1, h2 {
+header > h1, header > h2 {
 	border-bottom: 2px solid white;
 
 }
@@ -51,5 +51,11 @@ nav {
 #main-body {
 	width: 100%;
 	padding: 25px;
-	background:linear-gradient(to bottom, #282828 0%, #484848 100%);
+	background-color: #34568B;
+}
+
+#welcome-section {
+	text-align: center;
+	color: white;
+	height: 100vh;
 }
