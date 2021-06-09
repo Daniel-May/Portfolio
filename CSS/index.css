@@ -71,3 +71,31 @@ h6 {
 	font-size: 35px;
 	font-family: 'Handlee', cursive;
 }
+
+hr {
+	margin-bottom: 250px;
+}
+
+#about-section {
+	width: 100%;
+	display: flex;
+	border: 1px solid red;
+	justify-content: center;
+}
+
+img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+#image-wrapper {
+	background-color: #35a79c;
+
+}
+
+#details-wrapper {
+	display: flex;
+	width: 50%;
+	align-items: center;
+}
