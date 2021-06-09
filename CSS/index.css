@@ -3,6 +3,8 @@
 /* GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -57,5 +59,15 @@ nav {
 #welcome-section {
 	text-align: center;
 	color: white;
-	height: 100vh;
+	font-family: 'Audiowide', cursive;
+	font-size: 54px;
+}
+
+#welcome-section > h2 {
+	padding: 40px;
+}
+
+h6 {
+	font-size: 35px;
+	font-family: 'Handlee', cursive;
 }
