@@ -79,7 +79,6 @@ hr {
 #about-section {
 	width: 100%;
 	display: flex;
-	border: 1px solid red;
 	justify-content: center;
 }
 
@@ -89,13 +88,42 @@ img {
 	border-radius: 50%;
 }
 
-#image-wrapper {
-	background-color: #35a79c;
-
-}
 
 #details-wrapper {
 	display: flex;
 	width: 50%;
 	align-items: center;
+	font-size: 24px;
+	padding: 10px;
+}
+
+#skills-section {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+#skills-meter {
+	width: 80%;
+	
+	
+}
+
+
+.meter {
+	display: flex;
+	margin: 20px;
+	background-color: white;
+	padding: 10px;
+	
+}
+
+.meter > span {
+	float: left;
+}
+
+#HTML5 {
+	width: 80%;
 }
