@@ -72,8 +72,13 @@ h6 {
 	font-family: 'Handlee', cursive;
 }
 
-hr {
-	margin-bottom: 250px;
+#icon-wrapper {
+	width: 100%;
+	text-align: center;
+}
+
+.fa-arrow-alt-circle-down {
+	font-size: 50px;
 }
 
 #about-section {
@@ -115,7 +120,8 @@ img {
 .meter {
 	display: flex;
 	margin: 20px;
-	background-color: white;
+	background-color: #35a79c;
+	
 	padding: 10px;
 	
 }
@@ -124,6 +130,14 @@ img {
 	float: left;
 }
 
-#HTML5 {
-	width: 80%;
+#HTML5, #CSS3 {
+	width: 100%;
+}
+
+#JAVASCRIPT, #GITHUB {
+	width: 75%;
+}
+
+#JQUERY, #REACT {
+	width: 50%;
 }
