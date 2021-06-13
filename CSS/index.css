@@ -87,11 +87,12 @@ h6 {
 	justify-content: center;
 }
 
-img {
+#image-wrapper > img {
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
 }
+
 
 
 #details-wrapper {
@@ -141,3 +142,54 @@ img {
 #JQUERY, #REACT {
 	width: 50%;
 }
+
+#projects-section {
+	width: 100%;
+}
+
+#projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.image {
+	opacity: 1;
+	transition: .5s ease;
+	backface-visibility: hidden;
+  }
+
+  .project-tile {
+	padding: 5px;
+
+  }
+
+  .project-tile > img {
+		height: 200px;
+		width: 200px;
+		border-radius: 10%;
+  }
+
+  .middle {
+	transition: .5s ease;
+	opacity: 0;
+	transform: translate(0px, -110px);
+	-ms-transform: translate(50%, 50%);
+	text-align: center;
+  }
+
+  .project-tile:hover .image {
+	opacity: 0.3;
+  }
+  
+  .project-tile:hover .middle {
+	opacity: 1;
+  }
+  
+  .text {
+	color: white;
+	font-size: 16px;
+	padding: 1px 1px;
+  }
