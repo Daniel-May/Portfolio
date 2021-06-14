@@ -48,6 +48,12 @@ nav {
 	font-size: 22px;
 	/*font-family: 'Cairo', sans-serif;*/
 	font-family: 'Aldrich', sans-serif;
+	
+}
+
+.nav-link-wrap > p > a {
+	text-decoration: none;
+	color: white;
 }
 
 .nav-link-wrap:hover{
@@ -226,7 +232,7 @@ h6 {
 
   .project-tile:hover .image {
 	opacity: 0.3;
-	border: 5px solid yellow;
+
   }
   
   .project-tile:hover .middle {
@@ -238,10 +244,17 @@ h6 {
 	color: yellow;
 	font-size: 24px;
 	padding: 1px 1px;
+	
+  }
+
+  .text > a {
+	text-decoration: none;
+	color: yellow;
   }
 
   footer {
 	  text-align: center;
+	  
   }
 
   footer > h2 {
@@ -253,4 +266,5 @@ h6 {
   .fa-envelope, .fa-github-square, .fa-linkedin {
 	font-size: 50px;
 	padding: 25px;
+	color: purple;
 }
