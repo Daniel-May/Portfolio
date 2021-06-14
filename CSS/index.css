@@ -281,6 +281,10 @@ h6 {
 
 @media only screen and (max-width: 385px) {
 
+	#role {
+		width: 75%;
+	}
+
 	nav {
 		flex-direction: column;
 		
@@ -300,6 +304,10 @@ h6 {
 		flex-direction: column;
 	}
 
+	#icon-wrapper {
+		margin-bottom: 40px;
+	}
+
 	#image-wrapper {
 		text-align: center;
 	}
@@ -310,5 +318,17 @@ h6 {
 		padding: 5px;
 		border-top: 1px solid yellow;
 		border-left: none;
+	}
+
+	#about-section {
+		margin-bottom: 100px;
+	}
+
+	#skills-section {
+		margin-bottom: 100px;
+	}
+
+	#projects-section {
+		margin-bottom: 100px;
 	}
   }
