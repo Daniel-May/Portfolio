@@ -50,6 +50,12 @@ nav {
 	font-family: 'Aldrich', sans-serif;
 }
 
+.nav-link-wrap:hover{
+	background-color: #34568B;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
 #main-body {
 	width: 100%;
 	padding: 25px;
@@ -58,13 +64,14 @@ nav {
 
 #welcome-section {
 	text-align: center;
-	color: white;
 	font-family: 'Audiowide', cursive;
 	font-size: 54px;
+	color: white;
 }
 
 #welcome-section > h2 {
 	padding: 40px;
+	color: yellow;
 }
 
 h6 {
@@ -75,44 +82,70 @@ h6 {
 #icon-wrapper {
 	width: 100%;
 	text-align: center;
+	padding: 50px;
+	margin-bottom: 80px;
 }
 
 .fa-arrow-alt-circle-down {
 	font-size: 50px;
+	color: yellow;
 }
 
 #about-section {
 	width: 100%;
 	display: flex;
+	font-family: 'Handlee', cursive;
 	justify-content: center;
+	margin-bottom: 150px;
+	color: white;
+}
+
+#image-wrapper {
+	padding: 10px;
 }
 
 #image-wrapper > img {
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
+	
 }
 
 
 
 #details-wrapper {
 	display: flex;
-	width: 50%;
+	width: 40%;
 	align-items: center;
 	font-size: 24px;
 	padding: 10px;
+	border-left: 1px solid yellow;
+}
+
+#details-wrapper > p {
+	padding: 5px;
 }
 
 #skills-section {
 	width: 100%;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	font-family: 'Aldrich', sans-serif;
+	margin-bottom: 150px;
+}
+
+#skills-section > h2 {
+	color: yellow;
+	padding: 10px;
+	margin-bottom: 40px;
 }
 
 
 #skills-meter {
 	width: 80%;
+	color: white;
 	
 	
 }
@@ -122,7 +155,6 @@ h6 {
 	display: flex;
 	margin: 20px;
 	background-color: #35a79c;
-	
 	padding: 10px;
 	
 }
@@ -145,6 +177,15 @@ h6 {
 
 #projects-section {
 	width: 100%;
+	margin-bottom: 150px;
+}
+
+#projects-section > h2 {
+	text-align: center;
+	padding: 10px;
+	font-family: 'Aldrich', sans-serif;
+	margin-bottom: 40px;
+	color: yellow;
 }
 
 #projects {
@@ -170,6 +211,7 @@ h6 {
 		height: 200px;
 		width: 200px;
 		border-radius: 10%;
+		
   }
 
   .middle {
@@ -178,18 +220,37 @@ h6 {
 	transform: translate(0px, -110px);
 	-ms-transform: translate(50%, 50%);
 	text-align: center;
+	font-family: 'Aldrich', sans-serif;
+	
   }
 
   .project-tile:hover .image {
 	opacity: 0.3;
+	border: 5px solid yellow;
   }
   
   .project-tile:hover .middle {
 	opacity: 1;
+	
   }
   
   .text {
-	color: white;
-	font-size: 16px;
+	color: yellow;
+	font-size: 24px;
 	padding: 1px 1px;
   }
+
+  footer {
+	  text-align: center;
+  }
+
+  footer > h2 {
+	  padding: 15px;
+	  font-family: 'Aldrich', sans-serif;
+  }
+
+
+  .fa-envelope, .fa-github-square, .fa-linkedin {
+	font-size: 50px;
+	padding: 25px;
+}
