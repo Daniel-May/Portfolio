@@ -56,10 +56,16 @@ nav {
 	color: white;
 }
 
+.nav-link-wrap > p > a:hover {
+	color: yellow;
+	transition: 0.3s;
+}
+
 .nav-link-wrap:hover{
 	background-color: #34568B;
 	transition: 0.3s;
 	cursor: pointer;
+
 }
 
 #main-body {
@@ -214,7 +220,7 @@ h6 {
   }
 
   .project-tile > img {
-		height: 200px;
+		height: 180px;
 		width: 200px;
 		border-radius: 10%;
 		
@@ -254,17 +260,55 @@ h6 {
 
   footer {
 	  text-align: center;
+	  background-color: #35a79c;
 	  
   }
 
   footer > h2 {
 	  padding: 15px;
 	  font-family: 'Aldrich', sans-serif;
+	  color: white;
   }
 
 
-  .fa-envelope, .fa-github-square, .fa-linkedin {
+  .fa-envelope, .fa-github-square, .fa-linkedin, .fa-file-download {
 	font-size: 50px;
 	padding: 25px;
 	color: purple;
 }
+
+/** MOBILE SCREEN SIZE CSS **/
+
+@media only screen and (max-width: 385px) {
+
+	nav {
+		flex-direction: column;
+		
+	}
+
+	#welcome-section > h2 {
+		font-size: 35px;
+	}
+
+	.nav-link-wrap {
+		padding: 5px;
+		font-size: 24px;
+		width: 100%;
+	}
+
+	#about-section {
+		flex-direction: column;
+	}
+
+	#image-wrapper {
+		text-align: center;
+	}
+
+	#details-wrapper {
+		width: 100%;
+		font-size: 22px;
+		padding: 5px;
+		border-top: 1px solid yellow;
+		border-left: none;
+	}
+  }
