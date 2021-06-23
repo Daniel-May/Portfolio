@@ -285,8 +285,13 @@ h6 {
 		width: 75%;
 	}
 
+	#hamburger-div {
+		text-align: right;
+	}
+
 	nav {
 		flex-direction: column;
+		display: none;
 		
 	}
 
