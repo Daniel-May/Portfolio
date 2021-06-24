@@ -283,7 +283,11 @@ h6 {
 
 /** MOBILE SCREEN SIZE CSS **/
 
-@media only screen and (max-width: 385px) {
+@media only screen and (min-width: 386px) {
+
+}
+
+@media only screen and (max-width: 400px) {
 
 	header > h1 {
 		padding: 5px;
