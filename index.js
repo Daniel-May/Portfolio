@@ -1,5 +1,5 @@
 $(document).ready( () => {
-    $('#hamburger').on('click', () => {
+    $('#hamburger-div').on('click', () => {
         $('#nav').slideToggle();
     })
 
