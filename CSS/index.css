@@ -309,6 +309,16 @@ h6 {
 		
 	}
 
+	.nav-link-wrap > p > a:hover {
+		color: white;
+
+	}
+	
+	.nav-link-wrap:hover{
+		background-color: #35a79c;
+	
+	}
+
 	#welcome-section > h2 {
 		font-size: 35px;
 	}
