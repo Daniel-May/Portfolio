@@ -285,8 +285,17 @@ h6 {
 
 @media only screen and (max-width: 385px) {
 
+	header > h1 {
+		padding: 5px;
+	}
+
 	#role {
 		width: 75%;
+		padding: 5px;
+	}
+
+	#location {
+		padding: 5px;
 	}
 
 	#hamburger-div {
