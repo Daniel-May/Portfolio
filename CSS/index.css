@@ -68,6 +68,10 @@ nav {
 
 }
 
+#hamburger-div {
+	display: none;
+}
+
 #main-body {
 	width: 100%;
 	padding: 25px;
@@ -287,6 +291,7 @@ h6 {
 
 	#hamburger-div {
 		text-align: right;
+		display: block;
 	}
 
 	nav {
