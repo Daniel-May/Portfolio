@@ -14,7 +14,7 @@
 
 header {
 	width: 100%;
-	background-color: #35a79c;
+	background-color: #164641;
 	color: white;
 	padding: 25px;
 	font-family: 'Aldrich', sans-serif;
@@ -43,7 +43,7 @@ nav {
 	width: 25%;
 	text-align: center;
 	padding: 25px;
-	background-color: #35a79c;
+	background-color: #164641;
 	color: white;
 	font-size: 22px;
 	/*font-family: 'Cairo', sans-serif;*/
@@ -62,7 +62,7 @@ nav {
 }
 
 .nav-link-wrap:hover{
-	background-color: #34568B;
+	background-color: #164641;
 	transition: 0.3s;
 	cursor: pointer;
 
@@ -75,19 +75,19 @@ nav {
 #main-body {
 	width: 100%;
 	padding: 25px;
-	background-color: #34568B;
+	background-color: white;
 }
 
 #welcome-section {
 	text-align: center;
 	font-family: 'Audiowide', cursive;
 	font-size: 54px;
-	color: white;
+	color: #424200;
 }
 
 #welcome-section > h2 {
 	padding: 40px;
-	color: yellow;
+	color: #424200;
 }
 
 h6 {
@@ -104,7 +104,7 @@ h6 {
 
 .fa-arrow-alt-circle-down {
 	font-size: 50px;
-	color: yellow;
+	color: #424200;
 }
 
 #about-section {
@@ -113,7 +113,7 @@ h6 {
 	font-family: 'Handlee', cursive;
 	justify-content: center;
 	margin-bottom: 150px;
-	color: white;
+	color: #424200;
 }
 
 #image-wrapper {
@@ -135,7 +135,7 @@ h6 {
 	align-items: center;
 	font-size: 24px;
 	padding: 10px;
-	border-left: 1px solid yellow;
+	border-left: 1px solid #424200;
 }
 
 #details-wrapper > p {
@@ -153,7 +153,7 @@ h6 {
 }
 
 #skills-section > h2 {
-	color: yellow;
+	color: #424200;
 	padding: 10px;
 	margin-bottom: 40px;
 }
@@ -170,7 +170,7 @@ h6 {
 .meter {
 	display: flex;
 	margin: 20px;
-	background-color: #35a79c;
+	background-color: #164641;
 	padding: 10px;
 	
 }
@@ -201,14 +201,14 @@ h6 {
 	padding: 10px;
 	font-family: 'Aldrich', sans-serif;
 	margin-bottom: 40px;
-	color: yellow;
+	color: #424200;
 }
 
 #projects {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	width: 50%;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -224,9 +224,10 @@ h6 {
   }
 
   .project-tile > img {
-		height: 180px;
-		width: 200px;
+		height: 200px;
+		width: 220px;
 		border-radius: 10%;
+		border: 2px solid blue
 		
   }
 
@@ -251,7 +252,7 @@ h6 {
   }
   
   .text {
-	color: yellow;
+	color: #424200;
 	font-size: 24px;
 	padding: 1px 1px;
 	
@@ -259,12 +260,12 @@ h6 {
 
   .text > a {
 	text-decoration: none;
-	color: yellow;
+	color: blue;
   }
 
   footer {
 	  text-align: center;
-	  background-color: #35a79c;
+	  background-color: #164641;
 	  
   }
 
