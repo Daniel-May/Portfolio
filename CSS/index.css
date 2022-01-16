@@ -16,18 +16,27 @@ html {
 	scroll-behavior: smooth;
 }
 
+body {
+	border: 7px solid #59A96A;
+}
+
 header {
 	width: 100%;
 	background-color: #252627;
-	color: white;
+	color: #59A96A;;
 	padding: 25px;
 	font-family: 'Aldrich', sans-serif;
 }
 
 header > h1, header > h2 {
-	border-bottom: 2px solid white;
+	border-bottom: 2px solid #59A96A;;
 	letter-spacing: 1px;
 
+}
+
+
+#name {
+	color: #59A96A;
 }
 
 #role {
@@ -63,8 +72,8 @@ nav {
 }
 
 .nav-link-wrap > p > a:hover {
-	color: yellow;
-	transition: 0.3s;
+	text-decoration: underline;
+	transition: 0.7s;
 }
 
 .nav-link-wrap:hover{
@@ -86,7 +95,7 @@ nav {
 #welcome-section {
 	text-align: center;
 	font-family: 'Audiowide', cursive;
-	font-size: 54px;
+	font-size: 52px;
 	background-color: #252627;
 	color: white;
 }
@@ -113,11 +122,17 @@ h6 {
 	color: #59A96A;
 }
 
+.fa-arrow-alt-circle-down:hover {
+	color: #33FF00;
+	transition: 0.7s;
+}
+
 #about-section {
 	width: 100%;
 	display: flex;
 	font-family: 'Handlee', cursive;
 	justify-content: center;
+	margin-top: 150px;
 	margin-bottom: 150px;
 	color: #424200;
 	padding: 25px;
@@ -140,9 +155,10 @@ h6 {
 	display: flex;
 	width: 40%;
 	align-items: center;
-	font-size: 24px;
+	font-size: 28px;
+	font-weight: bold;
 	padding: 10px;
-	border-left: 1px solid #424200;
+	border-left: 5px solid 	#FF3131;
 }
 
 #details-wrapper > p {
@@ -157,9 +173,9 @@ h6 {
 	justify-content: center;
 	font-family: 'Aldrich', sans-serif;
 	margin-bottom: 150px;
-	background-image: url("/meavatar3.png");
+	background-image: url("/images/meavatar3.png");
 	background-repeat: no-repeat;
-	background-position: -2% 90%;
+	background-position: -2% 19%;
 	background-size: 250px 300px;
 }
 
@@ -167,6 +183,7 @@ h6 {
 	color: #424200;
 	padding: 10px;
 	margin-bottom: 40px;
+	
 }
 
 
@@ -175,6 +192,17 @@ h6 {
 	color: white;
 	
 	
+}
+
+#tech-stack {
+	margin-top: 100px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.fa-laptop-code {
+	font-size: 100px;
+	margin-bottom: 20px;
 }
 
 
@@ -194,11 +222,11 @@ h6 {
 	width: 100%;
 }
 
-#JAVASCRIPT, #GITHUB {
+#JAVASCRIPT {
 	width: 75%;
 }
 
-#JQUERY, #REACT, #PYTHON {
+#JQUERY, #PHP{
 	width: 50%;
 }
 
@@ -212,6 +240,7 @@ h6 {
 	text-align: center;
 	padding: 10px;
 	font-family: 'Aldrich', sans-serif;
+	padding-top: 80px;
 	margin-bottom: 40px;
 	color: white;
 }
@@ -223,6 +252,10 @@ h6 {
 	width: 80%;
 	margin: 0 auto;
 
+}
+
+.spacer {
+	padding: 100px;
 }
 
 .image {
@@ -276,6 +309,7 @@ h6 {
 	text-decoration: none;
 	color: white;
 	background-color: #164641;
+	padding: 3px;
 
   }
 
@@ -376,6 +410,7 @@ h6 {
 
 	#skills-section {
 		margin-bottom: 100px;
+		background-image: none;
 	}
 
 	#projects-section {

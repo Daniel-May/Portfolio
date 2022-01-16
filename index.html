@@ -5,11 +5,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width initial-scale=1.0">
-
+  <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
   <title>Daniel May | Web Developer</title>
 
   <!-- CSS SHEETS -->
-  <link rel="stylesheet" type="text/css" href="./CSS/index.css">
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
 
   <!-- FONTAWESOME -->
   <link href="./fontawesome/css/all.css" rel="stylesheet">
@@ -20,7 +20,7 @@
   
   <!-- HEADER -->
   <header>
-    <h1>Daniel May</h1>
+    <h1 id="name">Daniel May</h1>
       <h2 id="role">Web Developer</h2>
     <h2 id="location">London</h2>
     <div id="hamburger-div">
@@ -34,10 +34,10 @@
       <p><a href="#about-section">About Me</a></p>
     </div>
     <div class="nav-link-wrap">
-      <p><a href="#skills-section">Skills</a></p>
+      <p><a href="#projects-section">Projects</a></p>
     </div>
     <div class="nav-link-wrap">
-      <p><a href="#projects-section">Projects</a></p>
+      <p><a href="#skills-section">Skills</a></p>
     </div>
     <div class="nav-link-wrap">
       <p><a href="#contact-section">Contact Me</a></p>
@@ -49,7 +49,7 @@
     
     <section id="welcome-section">
       <h2>WELCOME</h2>
-      <h6><q>The journey of a thousand miles begins with one step. - Lao Tzu</q></h6>
+      <h6><q>Sometimes you gotta run before you can walk.</q>- TS</h6>
 
       <div id="icon-wrapper">
         <a href="#details-wrapper"><i class="far fa-arrow-alt-circle-down"></i></a>
@@ -59,92 +59,97 @@
 
     <section id="about-section">
       <div id="image-wrapper">
-        <img src="meavatar1.png" alt="cartoon avatar of daniel may">
+        <img src="images/meavatar1.png" alt="cartoon avatar of daniel may">
       </div>
 
       <div id="details-wrapper">
         <p>
-          Hello, my name is Dan and I'm a web developer. 
+          Hello, my name is Dan and I'm a web developer from London. 
           Since 2017 I have been learning how to produce websites using modern languages and I have a passion for 
-          building pages with custom code from scratch. My goal is to become a full time web developer!
+          building pages with custom code from scratch. 
         </p>
       </div>
     </section>
 
     <section id="projects-section">
-      <h2>Some of my projects</h2>
+      <h2>Projects</h2>
       <div id="projects">
 
         <div class="project-tile">
-          <img src="./mapapp.jpeg" alt="project image" class="image">
+          <img src="./images/mapapp.jpeg" alt="project image" class="image">
           <div class="middle">
             <div class="text"><a href="https://danamay.co.uk/project1" target="_blank">Map APP</a></div>
           </div>
         </div>
 
         <div class="project-tile">
-          <img src="./MAKEBelieve.png" alt="project image" class="image">
+          <img src="./images/MAKEBelieve.png" alt="project image" class="image">
           <div class="middle">
             <div class="text"><a href="https://daniel-may.github.io/MAKEBelieve-Cinema/" target="_blank">MAKEBelieve</a></div>
           </div>
         </div>
 
         <div class="project-tile">
-          <img src="./mrmservices.png" alt="project image" class="image">
+          <img src="./images/mrmservices.png" alt="project image" class="image">
           <div class="middle">
             <div class="text"><a href="https://www.mrm-services.co.uk/" target="_blank">MRM Services</a></div>
           </div>
         </div>
 
         <div class="project-tile">
-          <img src="./cartproject.jpg" alt="project image" class="image">
+          <img src="./images/cartproject.jpg" alt="project image" class="image">
           <div class="middle">
             <div class="text"><a href="https://daniel-may.github.io/shopping-page/" target="_blank">Shopping Cart</a></div>
           </div>
         </div>
 
         <div class="project-tile">
-          <img src="./stockworthproject.jpg" alt="project image" class="image">
+          <img src="./images/stockworthproject.jpg" alt="project image" class="image">
           <div class="middle">
             <div class="text"><a href="https://daniel-may.github.io/stockworth/" target="_blank">Stockworth</a></div>
           </div>
         </div>
 
         <div class="project-tile">
-          <img src="./surveyproject.jpg" alt="project image" class="image">
+          <img src="./images/surveyproject.jpg" alt="project image" class="image">
           <div class="middle">
             <div class="text"><a href="https://codepen.io/Daniel-May/full/YzwyRVx" target="_blank">Survey</a></div>
           </div>
         </div>
 
         <div class="project-tile">
-          <img src="./weddingproject.jpg" alt="project image" class="image">
+          <img src="./images/weddingproject.jpg" alt="project image" class="image">
           <div class="middle">
             <div class="text"><a href="https://daniel-may.github.io/wedding-site/" target="_blank">Wedding</a></div>
           </div>
         </div>
 
         <div class="project-tile">
-          <img src="./burgerproject.jpg" alt="project image" class="image">
+          <img src="./images/burgerproject.jpg" alt="project image" class="image">
           <div class="middle">
             <div class="text"><a href="https://codepen.io/Daniel-May/full/JjXGOPy" target="_blank">Burger Bytes</a></div>
           </div>
         </div>
-
       </div>
+      <div class="spacer"></div>
     </section>
 
     <section id="skills-section">
-      <h2>Some of my skills</h2>
+      <h2>Skills</h2>
       <div id="skills-meter">
         <div class="meter" id="HTML5"><p>HTML 5</p></div>
         <div class="meter" id="CSS3"><p>CSS 3</p></div>
         <div class="meter" id="JAVASCRIPT"><p>JAVASCRIPT</p></div>
-        <div class="meter" id="GITHUB"><p>GITHUB</p></div>
         <div class="meter" id="JQUERY"><p>JQUERY</p></div>
+        <div class="meter" id="PHP"><p>PHP</p></div>
       </div>
+      <div id="tech-stack">
+        <i class="fas fa-laptop-code"></i>
+        <p>My regular development stack includes: MAMP, GitHub, VS Code and third party API integration.</p>
+      </div>
+      <div class="spacer"></div>
     </section>
-    
+
   </div>
   
   <footer>
@@ -159,7 +164,7 @@
 
   <!-- JQUERY -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="./index.js"></script>
+  <script src="./js/index.js"></script>
 </body>
 </html>
 
