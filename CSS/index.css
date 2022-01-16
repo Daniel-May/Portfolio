@@ -12,9 +12,13 @@
 	padding: 0;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 header {
 	width: 100%;
-	background-color: #164641;
+	background-color: #252627;
 	color: white;
 	padding: 25px;
 	font-family: 'Aldrich', sans-serif;
@@ -22,6 +26,7 @@ header {
 
 header > h1, header > h2 {
 	border-bottom: 2px solid white;
+	letter-spacing: 1px;
 
 }
 
@@ -43,7 +48,7 @@ nav {
 	width: 25%;
 	text-align: center;
 	padding: 25px;
-	background-color: #164641;
+	background-color: #252627;
 	color: white;
 	font-size: 22px;
 	/*font-family: 'Cairo', sans-serif;*/
@@ -54,6 +59,7 @@ nav {
 .nav-link-wrap > p > a {
 	text-decoration: none;
 	color: white;
+	letter-spacing: 4px;
 }
 
 .nav-link-wrap > p > a:hover {
@@ -62,7 +68,7 @@ nav {
 }
 
 .nav-link-wrap:hover{
-	background-color: #164641;
+	background-color: #252627;
 	transition: 0.3s;
 	cursor: pointer;
 
@@ -81,12 +87,13 @@ nav {
 	text-align: center;
 	font-family: 'Audiowide', cursive;
 	font-size: 54px;
-	color: #424200;
+	background-color: #252627;
+	color: white;
 }
 
 #welcome-section > h2 {
 	padding: 40px;
-	color: #424200;
+	color: white;
 }
 
 h6 {
@@ -103,7 +110,7 @@ h6 {
 
 .fa-arrow-alt-circle-down {
 	font-size: 50px;
-	color: #424200;
+	color: #59A96A;
 }
 
 #about-section {
@@ -150,6 +157,10 @@ h6 {
 	justify-content: center;
 	font-family: 'Aldrich', sans-serif;
 	margin-bottom: 150px;
+	background-image: url("/meavatar3.png");
+	background-repeat: no-repeat;
+	background-position: -2% 90%;
+	background-size: 250px 300px;
 }
 
 #skills-section > h2 {
@@ -194,7 +205,7 @@ h6 {
 #projects-section {
 	width: 100%;
 	margin-bottom: 150px;
-	background-color: #164641;
+	background-color: #252627;
 }
 
 #projects-section > h2 {
@@ -211,6 +222,7 @@ h6 {
 	justify-content: center;
 	width: 80%;
 	margin: 0 auto;
+
 }
 
 .image {
@@ -269,7 +281,7 @@ h6 {
 
   footer {
 	  text-align: center;
-	  background-color: #164641;
+	  background-color: #252627;
 	  
   }
 
